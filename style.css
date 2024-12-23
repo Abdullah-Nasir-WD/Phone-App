@@ -1,0 +1,19 @@
+.image{
+    width: 100%;
+    
+}
+
+
+.card-width{
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+image{
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
