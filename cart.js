@@ -18,7 +18,7 @@ convert.map((items, index) => {
   div.innerHTML += `
   <div class="cards border border-white p-5 rounded bg-dark-subtle color-white">
 
-  <div class="d-flex p-2 ">
+  <div class="d-flex p-2">
   <img src="${items.image}" alt="${items.model}" class="phone-image" />
   </div>
 
