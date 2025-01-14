@@ -221,23 +221,21 @@ phones.map((items, index) => {
 
 
   div.innerHTML += `
- <div class="card text-bg-dark mb-3 flex-wrap" style="max-width: 18rem">
+  <div class="cards border border-white p-5 rounded bg-dark-subtle text- card-width">
 
-        <div class="d-flex flex-wrap p-2">
+        <div class="d-flex p-1">
         <img src="${items.image}" alt="${items.model}" class="phone-image" />
         </div>
-        <div class="d-flex flex-wrap">
+        
         <h1 class="border-bottom border-info">Brand : ${items.brand}</h1>
         <h1 class="border-bottom border-info">Model : ${items.model}</h1>
         <h1 class="border-bottom border-info">Ram : ${items.ram} </h1>
         <h1 class="border-bottom border-info">Rom : ${items.rom} </h1>
         <h1 class="border-bottom border-info">Camra : ${items.camera} </h1>
         <h1 class="border-bottom border-info">Price : $ ${items.price} </h1>
-        
-        </div>
-        <div class="text-center">
+  
         <button class="btn btn-primary mt-3" onclick="addToCard(${index})">Add To Card</button>
-        </div>
+
   </div>
   ` 
 })
